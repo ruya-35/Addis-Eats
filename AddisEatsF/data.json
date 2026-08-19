@@ -1,0 +1,248 @@
+{
+    "about": {
+    "badge": "Our Heritage",
+    "title": "Preserving Authentic Ethiopian Culinary Art",
+    "paragraphs": [
+        "At Addis Eats, we are dedicated to celebrating the rich culinary traditions of Ethiopia. Every dish is crafted using organic highland spices, fresh local ingredients, and time-honored slow-cooking methods passed down through generations.",
+        "Whether you're joining us for a traditional communal platter or experiencing our continuous Buna coffee ceremony, we offer warm Habesha hospitality in a comfortable modern setting."
+    ]
+    },
+    "dishes": [
+    {
+        "id": "doro-wat",
+        "name": "Special Doro Wat",
+        "localName": "የዶሮ ወጥ",
+        "category": "stews",
+        "categoryLabel": "Traditional Stews",
+        "price": 350.00,
+        "prepTime": "25 mins",
+        "spiciness": "Spicy",
+        "dietary": "Non-Vegetarian",
+        "popular": true,
+        "description": "Slow-simmered tender chicken drumstick stewed in rich, aromatic berbere sauce with caramelized onions, garlic, and clarified spiced butter, served with hard-boiled egg and warm injera.",
+        "ingredients": [
+        "Organic Chicken Drumsticks",
+        "Traditional Berbere Spice Blend",
+        "Slow-Caramelized Red Onions",
+        "Niter Kibbeh (Clarified Spiced Butter)",
+        "Hard-Boiled Egg",
+        "Fresh Teff Injera"
+        ],
+        "tags": ["Popular", "Traditional", "Spicy"]
+    },
+    {
+        "id": "special-kitfo",
+        "name": "Special Kitfo",
+        "localName": "ልዩ ክትፎ",
+        "category": "beef",
+        "categoryLabel": "Tibs & Beef",
+        "price": 420.00,
+        "prepTime": "15 mins",
+        "spiciness": "Medium Spicy",
+        "dietary": "Non-Vegetarian",
+        "popular": true,
+        "description": "Prime minced lean beef seasoned with fiery mitmita chili blend and warm clarified spiced butter (niter kibbeh), served with house-made ayib cheese and gomen collard greens.",
+        "ingredients": [
+        "Prime Lean Ground Beef",
+        "Authentic Mitmita Chili",
+        "Warm Niter Kibbeh (Herbal Butter)",
+        "House-Made Ayib (Cottage Cheese)",
+        "Steamed Gomen (Collard Greens)",
+        "Fresh Injera or Kocho"
+        ],
+        "tags": ["Popular", "Chef Choice", "High Protein"]
+    },
+    {
+        "id": "shiro-wat",
+        "name": "Special Shiro Wat",
+        "localName": "ልዩ ሽሮ ወጥ",
+        "category": "vegetarian",
+        "categoryLabel": "Vegetarian & Fasting",
+        "price": 220.00,
+        "prepTime": "18 mins",
+        "spiciness": "Mild Spicy",
+        "dietary": "Vegan / Fasting",
+        "popular": true,
+        "description": "Silky, velvety ground chickpea and split pea flour stew gently simmered in a clay pot with garlic, ginger, and berbere herbs.",
+        "ingredients": [
+        "Spiced Shiro Chickpea Powder",
+        "Red Onions & Minced Garlic",
+        "Fresh Tomato Reduction",
+        "Pure Olive / Sunflower Oil",
+        "Sliced Green Jalapeños",
+        "Warm Teff Injera"
+        ],
+        "tags": ["Vegan", "Fasting Friendly", "Popular"]
+    },
+    {
+        "id": "beef-shekla-tibs",
+        "name": "Beef Shekla Tibs",
+        "localName": "የሸክላ ጥብስ",
+        "category": "beef",
+        "categoryLabel": "Tibs & Beef",
+        "price": 380.00,
+        "prepTime": "20 mins",
+        "spiciness": "Mild",
+        "dietary": "Non-Vegetarian",
+        "popular": true,
+        "description": "Cubed tender beef tenderloin pan-seared over high heat with fragrant rosemary, sweet red onions, garlic, and fresh green chili peppers, served sizzling in a clay shekla.",
+        "ingredients": [
+        "Beef Tenderloin Cubes",
+        "Fresh Wild Rosemary",
+        "Red Onions & Sliced Garlic",
+        "Ethiopian Jalapeños",
+        "Niter Kibbeh Clarified Butter",
+        "Warm Teff Injera"
+        ],
+        "tags": ["Sizzling", "Popular", "Gluten-Free Teff"]
+    },
+    {
+        "id": "yetsom-beyaynetu",
+        "name": "Yetsom Beyaynetu",
+        "localName": "የጾም በያይነቱ",
+        "category": "vegetarian",
+        "categoryLabel": "Vegetarian & Fasting",
+        "price": 250.00,
+        "prepTime": "15 mins",
+        "spiciness": "Variety",
+        "dietary": "Vegan / Fasting",
+        "popular": true,
+        "description": "The quintessential Ethiopian vegan feast: a colorful platter of spicy red lentils (Misir), turmeric split peas (Kik Alicha), collard greens (Gomen), cabbage with carrots (Tikil Gomen), and beet salad.",
+        "ingredients": [
+        "Misir Wat (Spiced Red Lentils)",
+        "Kik Alicha (Yellow Split Peas)",
+        "Gomen (Stewed Collard Greens)",
+        "Tikil Gomen (Cabbage & Carrots)",
+        "Azifa (Green Lentil Salad)",
+        "Fresh Injera Platter"
+        ],
+        "tags": ["100% Vegan", "Platter", "Popular"]
+    },
+    {
+        "id": "special-chechebsa",
+        "name": "Special Chechebsa (Kita Firfir)",
+        "localName": "ልዩ ጨጨብሳ",
+        "category": "breakfast",
+        "categoryLabel": "Breakfast & Specials",
+        "price": 180.00,
+        "prepTime": "12 mins",
+        "spiciness": "Mild",
+        "dietary": "Vegetarian",
+        "popular": true,
+        "description": "Torn homemade flatbread (kita) lightly tossed in warm clarified spiced butter and berbere, drizzled with pure highland honey and served with organic yogurt or ayib.",
+        "ingredients": [
+        "Freshly Griddled Kita Flatbread",
+        "Highland Niter Kibbeh",
+        "Mild Berbere Seasoning",
+        "Pure Ethiopian Wild Honey",
+        "Fresh Ayib / Natural Yogurt"
+        ],
+        "tags": ["Breakfast", "Sweet & Savory", "Popular"]
+    },
+    {
+        "id": "lamb-tibs",
+        "name": "Awaze Lamb Tibs",
+        "localName": "የበግ አዋዜ ጥብስ",
+        "category": "beef",
+        "categoryLabel": "Tibs & Beef",
+        "price": 400.00,
+        "prepTime": "20 mins",
+        "spiciness": "Spicy",
+        "dietary": "Non-Vegetarian",
+        "popular": false,
+        "description": "Succulent highland lamb morsels sautéed with fiery Awaze paste, sweet onions, vine tomatoes, and rosemary in seasoned herbal butter.",
+        "ingredients": [
+        "Highland Lamb Chops & Meat",
+        "Authentic Awaze Chili Paste",
+        "Sweet Sliced Onions",
+        "Fresh Rosemary",
+        "Clarified Herb Butter",
+        "Injera"
+        ],
+        "tags": ["Spicy", "Chef Choice"]
+    },
+    {
+        "id": "gomen-besiga",
+        "name": "Gomen Besiga",
+        "localName": "ጎመን በስጋ",
+        "category": "stews",
+        "categoryLabel": "Traditional Stews",
+        "price": 310.00,
+        "prepTime": "22 mins",
+        "spiciness": "Mild",
+        "dietary": "Non-Vegetarian",
+        "popular": false,
+        "description": "Tender cut beef pieces slow-braised together with farm-fresh collard greens, garlic, ginger, and cardamom-infused clarified butter.",
+        "ingredients": [
+        "Braised Beef Cuts",
+        "Organic Collard Greens",
+        "Fresh Crushed Ginger & Garlic",
+        "Niter Kibbeh Spiced Butter",
+        "Cardamom & White Pepper",
+        "Injera"
+        ],
+        "tags": ["Comfort Food", "Traditional"]
+    },
+    {
+        "id": "misir-wat",
+        "name": "Misir Wat (Spicy Red Lentils)",
+        "localName": "ምስር ወጥ",
+        "category": "vegetarian",
+        "categoryLabel": "Vegetarian & Fasting",
+        "price": 190.00,
+        "prepTime": "15 mins",
+        "spiciness": "Medium Spicy",
+        "dietary": "Vegan / Fasting",
+        "popular": false,
+        "description": "Nutritious red split lentils simmered slowly in rich berbere sauce with caramelized onions, garlic, and cumin.",
+        "ingredients": [
+        "Organic Red Split Lentils",
+        "Berbere Spice Mix",
+        "Minced Shallots & Garlic",
+        "Cold-Pressed Vegetable Oil",
+        "Injera"
+        ],
+        "tags": ["Vegan", "High Fiber"]
+    },
+    {
+        "id": "traditional-buna",
+        "name": "Traditional Buna Coffee Ceremony",
+        "localName": "የባህል ቡና ቁርስ",
+        "category": "drinks",
+        "categoryLabel": "Drinks & Desserts",
+        "price": 120.00,
+        "prepTime": "15 mins",
+        "spiciness": "None",
+        "dietary": "Vegan",
+        "popular": true,
+        "description": "Authentic ceremonial Ethiopian coffee roasted, freshly ground, and brewed in a clay Jebena pot. Served with frankincense aroma, freshly popped corn, and rue herbs.",
+        "ingredients": [
+        "Organic Yirgacheffe / Sidama Green Coffee Beans",
+        "Spring Water",
+        "Fresh Popcorn (Fendisha)",
+        "Traditional Tena Adam (Rue Herb)",
+        "Aromatic Frankincense"
+        ],
+        "tags": ["Beverage", "Cultural Experience", "Popular"]
+    },
+    {
+        "id": "house-tej",
+        "name": "Artisanal Honey Wine (Tej)",
+        "localName": "የማር ጠጅ",
+        "category": "drinks",
+        "categoryLabel": "Drinks & Desserts",
+        "price": 150.00,
+        "prepTime": "5 mins",
+        "spiciness": "None",
+        "dietary": "Vegetarian",
+        "popular": false,
+        "description": "Traditional Ethiopian honey wine fermented with wild forest honey and Gesho (buckthorn) leaves. Served in authentic Berele glass flasks.",
+        "ingredients": [
+        "Pure Highland Forest Honey",
+        "Gesho Leaves & Stems",
+        "Pure Filtered Water"
+        ],
+        "tags": ["Beverage", "Traditional"]
+    }
+  ]
+}
