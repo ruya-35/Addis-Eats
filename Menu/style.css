@@ -23,7 +23,6 @@ body {
   min-height: 100vh;
 }
 
-.flex-center,
 .search-icon,
 .cart-icon,
 .icon-btn,
@@ -34,9 +33,6 @@ body {
   justify-content: center;
 }
 
-/* ==========================================
-   2. APP LAYOUT & TOP BAR
-   ========================================== */
 .app-container {
   display: flex;
   min-height: 100vh;
@@ -57,7 +53,6 @@ body {
   margin-bottom: 24px;
 }
 
-/* Logo */
 .logo-container {
   display: flex;
   align-items: center;
@@ -77,7 +72,6 @@ body {
   white-space: nowrap;
 }
 
-/* Search Box */
 .search-box {
   flex: 1;
   max-width: 500px;
@@ -112,7 +106,6 @@ body {
   border-color: var(--primary-color);
 }
 
-/* Action Buttons & Badge */
 .top-actions {
   display: flex;
   gap: 12px;
@@ -151,9 +144,6 @@ body {
   border-radius: 10px;
 }
 
-/* ==========================================
-   3. HERO BANNER
-   ========================================== */
 .hero-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
               url('images/hero-bg.jpg') center/cover no-repeat;
@@ -177,9 +167,6 @@ body {
   opacity: 0.9;
 }
 
-/* ==========================================
-   4. FOOD ITEMS GRID
-   ========================================== */
 .food-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -231,7 +218,6 @@ body {
   color: var(--text-main);
 }
 
-
 .add-btn {
   background-color: var(--primary-color);
   color: white;
@@ -247,9 +233,7 @@ body {
 .add-btn:hover {
   background-color: var(--primary-hover);
 }
-/* ==========================================
-   5. CART SIDEBAR
-   ========================================== */
+
 .cart-sidebar {
   width: 360px;
   background: var(--card-bg);
@@ -260,7 +244,6 @@ body {
   height: 100vh;
   position: sticky;
   top: 0;
-  transition: transform 0.3s ease;
 }
 
 .cart-header {
@@ -374,28 +357,17 @@ body {
   background-color: var(--btn-blue);
 }
 
-/* ==========================================
-   6. RESPONSIVE DESIGN
-   ========================================== */
 @media (max-width: 900px) {
   .app-container {
     flex-direction: column;
   }
 
- 
-
   .cart-sidebar {
     width: 100%;
     height: auto;
-    position: static; /* Stack naturally below the menu */
-    transform: none;  /* Keep it visible at the bottom */
+    position: static;
     border-left: none;
     border-top: 1px solid #e8e8e8;
-  }
-
-  /* JavaScript toggles this class */
-  .cart-sidebar.open {
-    transform: translateX(0);
   }
 }
 
