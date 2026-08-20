@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AddisEats - Food Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <main class="main-content">
+            
+            <header class="top-bar">
+                <div class="logo-container">
+                    <img src="images/restaurant.png" alt="Addis Eats Logo" class="logo-img">
+                    <span class="logo-text">Addis Eats</span>
+                </div>
+                
+                <div class="search-box">
+                    <span class="search-icon"><img src="images/search (1).png" alt=""></span>
+                    <input type="text" id="menu-search" placeholder="Search dishes...">
+                </div>
+
+                <div class="top-actions">
+                    
+                    <button class="icon-btn cart-btn" id="cart-toggle" aria-label="Cart">
+                        <span class="cart-icon"><img src="images/shopping-cart (1).png" alt=""></span>
+                        <span class="badge" id="cart-badge">0</span>
+                    </button>
+                </div>
+            </header>
+
+            <section class="hero-banner">
+                <div class="banner-overlay">
+                    <h1>Food Menu</h1>
+                    <p>  Choose your preference, Delivered qucik</p>
+                </div>
+            </section>
+
+            <section class="food-items-section">
+                <div class="food-grid" id="menu-items-container">
+                </div>
+            </section>
+
+        </main>
+
+        <aside class="cart-sidebar" id="cart-sidebar">
+            <div class="cart-header">
+                <h2>My Cart</h2>
+                <button class="close-btn" id="cart-close" aria-label="Close Cart">&times;</button>
+            </div>
+
+            <div class="cart-items" id="cart-items-container">
+            </div>
+
+            <div class="cart-footer">
+                <div class="cart-total-box">
+                    <span>Total</span>
+                    <span class="total-price" id="cart-total">$0.00</span>
+                </div>
+                <button class="checkout-btn" id="checkout-btn">Checkout</button>
+            </div>
+        </aside>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
